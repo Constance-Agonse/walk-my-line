@@ -10,6 +10,8 @@ import MyOwnJournies from "./pages/MyOwnJournies";
 import MyLikedJournies from "./pages/MyLikedJournies";
 import Journey from "./pages/Journey"
 import ErrorPage from "./pages/ErrorPage";
+import Signup from "./pages/SignUp";
+import Signin from "./pages/Signin";
 
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
         <Route exact path="/myOwnJournies" component = {MyOwnJournies} />
         <Route exact path="/myLikedJournies" component = {MyLikedJournies} />  
         <Route exact path="/journey" component = {Journey} />  
+        <Route exact path="/signup" component= {Signup} />
+        <Route exact path="/signin" component= {Sigin} />
+        
 
         <Route path="*" component= {ErrorPage} />
       </Switch>
