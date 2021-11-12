@@ -15,7 +15,9 @@
 
 # misc
 .DS_Store
-.env.local
+/server/.env
+/client/.env
+.env
 .env.development.local
 .env.test.local
 .env.production.local
