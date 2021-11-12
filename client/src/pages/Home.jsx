@@ -8,6 +8,9 @@ export default function Home() {
       <NavLink exact to="/profile">Profile</NavLink>
       <NavLink exact to="/createSearchJourney">Create a journeyyy !</NavLink>
 
+      <NavLink exact to="/signup">Sign up !</NavLink>
+      <NavLink exact to="/signin">Sign in !</NavLink>
+
     </div>
   )
 }
