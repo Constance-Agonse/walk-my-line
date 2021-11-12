@@ -8,6 +8,7 @@ import CreateSearchJourney from "./pages/CreateSearchJourney";
 import CreatePinJourney from "./pages/CreatePinJourney";
 import MyOwnJournies from "./pages/MyOwnJournies";
 import MyLikedJournies from "./pages/MyLikedJournies";
+import Journey from "./pages/Journey"
 import ErrorPage from "./pages/ErrorPage";
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route exact path="/createSearchJourney/Pin" component = {CreatePinJourney} />
         <Route exact path="/myOwnJournies" component = {MyOwnJournies} />
         <Route exact path="/myLikedJournies" component = {MyLikedJournies} />  
+        <Route exact path="/journey" component = {Journey} />  
+
         <Route path="*" component= {ErrorPage} />
       </Switch>
     </div>

@@ -46,8 +46,8 @@ const JourneySchema = new.mongoose.Schema({
   longIntial: {
     type: Number
   } // A GERER PLUS TARD DANS LE CODE LORS DE LA CREATION D'UN TRAJET
-}
-  // , { timestamps: true }
+},
+
 );
 
 const JourneyModel = mongoose.model("Journey", JourneySchema);
