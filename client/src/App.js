@@ -23,6 +23,9 @@ function App() {
         <Route exact path="/myOwnJournies" component = {MyOwnJournies} />
         <Route exact path="/myLikedJournies" component = {MyLikedJournies} />  
         <Route exact path="/journey" component = {Journey} />  
+        <Route exact path="/signup" component= {Signup} />
+        <Route exact path="/signin" component= {Sigin} />
+        
 
         <Route path="*" component= {ErrorPage} />
       </Switch>
