@@ -7,7 +7,7 @@ export default function Home() {
       c'est la home
       <NavLink exact to="/profile">Profile</NavLink>
       <NavLink exact to="/createSearchJourney">Create a journeyyy !</NavLink>
-
+      
       <NavLink exact to="/signup">Sign up !</NavLink>
       <NavLink exact to="/signin">Sign in !</NavLink>
 
